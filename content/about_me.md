@@ -1,7 +1,6 @@
 ---
 title: "About Me"
-date: 2024-06-29T00:00:00+08:00
-lastmod: 2024-11-15T00:47:00+08:00
+date: 2025-07-05T21:20:07+08:00
 draft: false
 author: ["Kosmo CHE"]
 keywords:
@@ -30,7 +29,7 @@ Hello, I am Kosmo CHE (Xinyu CHE, 车心宇).
 
 I am a first-year M.Eng CT student at **Xi’an Jiaotong University**, Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering
 
-I achieved my Bachelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}High Performance Computing{{< /text >}}.
+I achieved my Bachelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Document Understanding{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}}.
 
 If you have any inquiries or are interested in collaboration, please feel free to contact me via email at kosmoche@gmail.com.
 
@@ -41,7 +40,7 @@ If you have any inquiries or are interested in collaboration, please feel free t
 
 ## 💻 Professional Experience
 
-- **2025.04 - Present**: Research Intern, IEG, TenCent, Shenzhen, China.
+- **2025.04 - Present**: Research Intern, IEG, Tencent, Shenzhen, China.
 - **2024.09 - 2025.03**: Research Intern, Bosch Corporate Research, Shanghai, China.
 - **2023.03 - 2025.04**: Team Member, Shanghai University Super Computing Team.
 
