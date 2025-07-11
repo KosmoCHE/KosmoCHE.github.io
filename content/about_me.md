@@ -27,25 +27,25 @@ cover:
 
 Hello, I am Kosmo CHE (Xinyu CHE, 车心宇).
 
-I am a first-year M.Eng CT student at **Xi’an Jiaotong University**, Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering
+I am a first-year M.Eng CT student at **Xi'an Jiaotong University**, [Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering](https://bdkelab.xjtu.edu.cn/), supervised by Prof. [Jun LIU](https://gr.xjtu.edu.cn/zh/web/liukeen/4).
 
-I achieved my Bachelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Document Understanding{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}}.
+I achieved my Bacxhelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Document Understanding{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}}.
 
 If you have any inquiries or are interested in collaboration, please feel free to contact me via email at kosmoche@gmail.com.
 
 ## 🧑‍🎓 Education History
 
-- **2025.09 - 2027.06**: Master of Computer Technology, Xi’an Jiaotong University, Xi’an, China.
+- **2025.09 - 2027.06**: Master of Computer Technology, Xi'an Jiaotong University, Xi'an, Shaanxi, China.
 - **2021.09 - 2025.06**: Bachelor of Intelligent Science and Technology, Shanghai University, Shanghai, China.
 
 ## 💻 Professional Experience
 
-- **2025.04 - Present**: Research Intern, IEG, Tencent, Shenzhen, China.
-- **2024.09 - 2025.03**: Research Intern, Bosch Corporate Research, Shanghai, China.
+- **2025.04 - Present**: Research Intern, IEG, Tencent.
+- **2024.09 - 2025.03**: Research Intern, Corporate Research, Bosch.
 - **2023.03 - 2025.04**: Team Member, Shanghai University Super Computing Team.
 
 ## 🎉 Honors and Awards
-
+- [{{< text color="#767676" >}}2024.12{{< /text >}}] **Xiaomi Scholarship** for outstanding academic performance and competition achievements, Shanghai University and Xiaomi Foundation.
 - [{{< text color="#767676" >}}2024.04{{< /text >}}] **First Prize** and **Group Competition Award** in [2024 ASC Student Supercomputer Challenge](http://www.asc-events.org/StudentChallenge/index.html#) Global Final.
 
 
@@ -60,4 +60,4 @@ If you have any inquiries or are interested in collaboration, please feel free t
 
 - 🎮 A rookie Monster Hunter player
 - 🚴 Road bike noob legs
-- 🏋️‍♂️ Protein shake mixer first
+- 🏋️‍♂️ Protein shaker pro
