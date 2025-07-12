@@ -29,7 +29,7 @@ Hello, I am Kosmo CHE (Xinyu CHE, 车心宇).
 
 I am a first-year M.Eng CT student at **Xi'an Jiaotong University**, [Shaanxi Provincial Key Laboratory of Big Data Knowledge Engineering](https://bdkelab.xjtu.edu.cn/), supervised by Prof. [Jun LIU](https://gr.xjtu.edu.cn/zh/web/liukeen/4).
 
-I achieved my Bacxhelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Document Understanding{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}}.
+I achieved my Bachelor's degree in Intelligent Science and Technology from **Shanghai University**. During that time, I conducted in-depth research on {{< text color="#8860cc" weight="bold" >}}Document Understanding{{< /text >}} and {{< text color="#8860cc" weight="bold" >}}Inference Acceleration{{< /text >}}.
 
 If you have any inquiries or are interested in collaboration, please feel free to contact me via email at kosmoche@gmail.com.
 
