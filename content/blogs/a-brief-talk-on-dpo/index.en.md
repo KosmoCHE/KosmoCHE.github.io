@@ -84,7 +84,7 @@ we substitute Eq 6 into Eq 4:
 $$
 \begin{align*}
 &\min_{\pi_{\theta}} \mathbb{E}_{x \sim \mathcal{D}, y \sim \pi_{\theta}(y|x)} [\log \frac{\pi_{\theta}(y|x)}{\pi^*(y|x)} - \log Z(x)]\\
-&= \min_{\pi_{\theta}} \mathbb{D}_{KL}(\pi_{\theta}(y|x) || \pi^*(y|x)) - \mathbb{E}_{x \sim \mathcal{D}} [\log Z(x)] \tag{Eq 7}
+&= \min_{\pi_{\theta}} \mathbb{E}_{x \sim \mathcal{D}} [\mathbb{D}_{KL}(\pi_{\theta}(y|x) || \pi^*(y|x)) - \log Z(x)] \tag{Eq 7}
 \end{align*}
 $$
 
