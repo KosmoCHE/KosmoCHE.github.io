@@ -65,7 +65,7 @@ $$
 Now, we find the **Eq 4 like a KL divergence term which is easy for us to optimize**, but with a non-probability distribution in the denominator. So we need to convert the non-probability distribution into a probability distribution by add a normalization term $Z(x)$, which is the partition function:
 
 $$
-Z(x) = \sum_y \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r(x, y)\right) \tag{Eq 5}
+Z(x) = \sum_y \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right) \tag{Eq 5}
 $$
 
 so that we can rewrite the denominator as:
@@ -77,7 +77,7 @@ $$
 \end{align*}
 $$
 
-where $\pi^*(y|x) = \frac {\pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right)}{\sum_y \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r(x, y)\right)}$, means the probability distribution of the reference model after being re-weighted by the reward function.
+where $\pi^*(y|x) = \frac {\pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right)}{\sum_y \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right)}$, means the probability distribution of the reference model after being re-weighted by the reward function.
 
 we substitute Eq 6 into Eq 4:
 
