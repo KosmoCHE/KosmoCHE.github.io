@@ -92,10 +92,10 @@ where $T_n$ is the length of the trajectory, and $s$ is the state at time step $
 As we consider Eq 2, the return $R(\tau)$ is a sum of rewards on the trajectory, but the $\pi_\theta(a|s)$ is a probability distribution on single step. We may think this is not a good choice to use the sum of rewards as the return. In fact there are many ways to improve the return $R(\tau)$, but the most common one is Generalized Advantage Estimation (GAE).
 
 $$
-\delta_\phi(s_t,a_t) = r_t +\gamma V_\phi(s_{t+1}) - V_\phi(s_t) \\
-A_\phi(s_t,a_t)=\sum_{l=0}^{\infty}(\gamma \lambda)^l \delta_\phi(s_{t+l},a_{t+l}) 
-\tag{Eq 3}
-
+\begin{align*}
+&\delta_\phi(s_t,a_t) = r_t +\gamma V_\phi(s_{t+1}) - V_\phi(s_t) \\
+&A_\phi(s_t,a_t)=\sum_{l=0}^{\infty}(\gamma \lambda)^l \delta_\phi(s_{t+l},a_{t+l}) \tag{Eq 3}
+\end{align*}
 $$
 
 where $A_\phi(s_t,a_t)$ is the advantage function, $r_t$ is the reward at time step $t$, $\gamma$ is the discount factor, and $V_\phi(s)$ is the value function.
