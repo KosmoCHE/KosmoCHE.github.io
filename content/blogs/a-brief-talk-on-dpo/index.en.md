@@ -72,7 +72,7 @@ so that we can rewrite the denominator as:
 $$
 \begin{align*}
 \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right) &= \pi_{\text{ref}}(y|x) \exp\left(\frac{1}{\beta}r_{\phi}(x, y)\right) Z(x)^{-1} Z(x) \\
-&= \pi^*(y|x) Z(x)^{-1} \tag{Eq 6}
+&= \pi^*(y|x) Z(x) \tag{Eq 6}
 \end{align*}
 $$
 
