@@ -40,7 +40,7 @@ If you have any inquiries or are interested in collaboration, please feel free t
 
 ## 💻 Professional Experience
 
-- **2025.04 - Present**: Research Intern, IEG, Tencent.
+- **2025.04 - 2025.08**: Research Intern, IEG, Tencent.
 - **2024.09 - 2025.03**: Research Intern, Corporate Research, Bosch.
 - **2023.03 - 2025.04**: Team Member, Shanghai University Super Computing Team.
 
