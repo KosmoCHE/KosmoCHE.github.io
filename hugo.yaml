@@ -154,8 +154,5 @@ markup:
         enable: true
 frontmatter:
   lastmod:
-    - "lastmod"
     - ":git"
-    - ":fileModTime"
-exclude:
-  - archetypes
+    - "lastmod"
