@@ -157,3 +157,5 @@ frontmatter:
     - "lastmod"
     - ":git"
     - ":fileModTime"
+exclude:
+  - archetypes
