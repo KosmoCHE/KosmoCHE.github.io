@@ -2,7 +2,8 @@ baseURL: "https://kosmoche.github.io"
 title: "Kosmo CHE"
 copyright: "© 2024-2025 Kosmo CHE"
 theme: [PaperMod]
-
+exclude:
+  - archetypes/
 languageCode: "en-us" 
 DefaultContentLanguage: "en"
 hasCJKLanguage: true
