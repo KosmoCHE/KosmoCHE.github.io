@@ -1,0 +1,27 @@
+:root {
+    --post-age-hint-bg-color: #e5e4e4e9;
+    --post-age-hint-color: #ad4509;
+}
+
+.dark {
+    --post-age-hint-bg-color: #6d6c6cac;
+    --post-age-hint-color: #ff7723;
+}
+
+.post-age-hint {
+    background-color: var(--post-age-hint-bg-color);
+    /* 深灰色背景 */
+    color: var(--post-age-hint-color);
+    /* 浅灰色文字 */
+    padding: 10px;
+    border-left: 5px solid #ff6666;
+    /* 红色边框，醒目但不刺眼 */
+    margin: 20px 0;
+    border-radius: 5px;
+    /* 圆角边框 */
+}
+
+/* 添加一个过渡效果，鼠标悬停时改变边框颜色 */
+.post-age-hint:hover {
+    border-color: #ff9999;
+}
