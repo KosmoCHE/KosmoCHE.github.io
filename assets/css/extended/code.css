@@ -77,6 +77,7 @@
     display: flex;
     align-items: center;
     gap: .2rem;
+    font-style: italic;
 }
 
 .pe-code-block-header-center {
@@ -163,7 +164,7 @@ table.lntable {
     cursor: pointer;
 }
 
-.pe-code-details i.pe-code-details-icon {
+.pe-code-details svg.pe-code-details-icon {
     color: var(--content);
     -webkit-transition: transform 0.2s ease;
     -moz-transition: transform 0.2s ease;
@@ -171,7 +172,7 @@ table.lntable {
     transition: transform 0.2s ease;
 }
 
-.dark .pe-code-details i.pe-code-details-icon {
+.dark .pe-code-details svg.pe-code-details-icon {
     color: var(--content);
 }
 
@@ -184,7 +185,7 @@ table.lntable {
     transition: max-height 0.8s cubic-bezier(0, 1, 0, 1) -0.1s;
 }
 
-.pe-code-details.open i.pe-code-details-icon {
+.pe-code-details.open svg.pe-code-details-icon {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -206,18 +207,6 @@ table.lntable {
 
 .scrollable {
     overflow: auto;
-}
-
-.pe-code-details .fa-chevron-right:before {
-    content: "\f105";
-}
-
-.pe-code-details .fa-ellipsis-h:before {
-    content: "\f105";
-}
-
-.pe-code-details.open .fa-ellipsis-h:before {
-    content: "";
 }
 
 .pe-code-details .pe-code-copy-button {
