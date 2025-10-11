@@ -8,6 +8,7 @@ categories:
 tags:
     - Zotero
 description: "This blog note how to use Zotero with iCloud as the storage."
+summary: "This blog note how to use Zotero with iCloud as the storage."
 comments: true
 images:
 cover:

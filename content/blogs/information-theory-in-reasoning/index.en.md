@@ -9,6 +9,7 @@ tags:
     - Reinforcement Learning
     - Information Theory
 description: "This blog post discusses the role of information theory in LLM reasoning."
+summary: "This blog post discusses the role of information theory in LLM reasoning."
 comments: true
 images:
 cover:

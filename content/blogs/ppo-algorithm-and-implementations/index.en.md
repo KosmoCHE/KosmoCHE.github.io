@@ -9,6 +9,7 @@ tags:
     - Reinforcement Learning
     - Proximal Policy Optimization
 description: "This blog post introduces RLHF-PPO algorithm with code implementation."
+summary: "This blog post introduces RLHF-PPO algorithm with code implementation."
 comments: true
 images:
 cover:

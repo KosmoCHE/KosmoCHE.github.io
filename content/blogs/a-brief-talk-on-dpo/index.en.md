@@ -10,7 +10,7 @@ tags:
     - Reinforcement Learning
     - Direct Preference Optimization
 description: "This blog post notes my understanding of Direct Preference Optimization and the math derivation behind it."
-
+summary: "This blog post notes my understanding of Direct Preference Optimization and the math derivation behind it."
 comments: true
 images:
 cover:
