@@ -3,14 +3,11 @@ title: 'Zotero'
 date: 2025-07-13T21:39:10+08:00
 draft: false
 author: ["Kosmo CHE"]
-keywords: 
-    - Zotero
 categories:
-    - System
+    - Tools & Tips​
 tags:
     - Zotero
 description: "This blog note how to use Zotero with iCloud as the storage."
-summary: "This blog note how to use Zotero with iCloud as the storage."
 comments: true
 images:
 cover:

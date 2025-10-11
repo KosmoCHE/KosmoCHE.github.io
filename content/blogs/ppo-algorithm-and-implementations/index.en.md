@@ -3,16 +3,12 @@ title: 'RL4LLM: 2. PPO Algorithm and Implementation Details'
 date: 2025-07-21T19:58:49+08:00
 draft: false
 author: ["Kosmo CHE"]
-keywords: 
-    - LLM
-    - Reinforcement Learning
-    - PPO
 categories:
-    - RL4LLM
+    - Large Language Model
 tags:
-    - PPO
+    - Reinforcement Learning
+    - Proximal Policy Optimization
 description: "This blog post introduces RLHF-PPO algorithm with code implementation."
-summary: "This blog post introduces RLHF-PPO algorithm with code implementation."
 comments: true
 images:
 cover:

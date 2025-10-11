@@ -3,17 +3,12 @@ title: 'RL4LLM: 3. Information Theory in Reasoning'
 date: 2025-10-10T11:49:48+08:00
 draft: true
 author: ["Kosmo CHE"]
-keywords: 
-    - Information Theory
-    - Reinforcement Learning
-    - Reasoning
 categories:
     - Large Language Model
 tags:
-    - RL4LLM
+    - Reinforcement Learning
     - Information Theory
 description: "This blog post discusses the role of information theory in LLM reasoning."
-summary: "This blog post discusses the role of information theory in LLM reasoning."
 comments: true
 images:
 cover:

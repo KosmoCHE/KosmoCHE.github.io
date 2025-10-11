@@ -3,16 +3,14 @@ title: 'RL4LLM: 1. A Brief Talk on DPO'
 date: 2025-07-12T00:58:24+08:00
 draft: false
 author: ["Kosmo CHE"]
-keywords: 
-    - LLM
-    - Reinforcement Learning
-    - DPO
+
 categories:
     - Large Language Model
 tags:
-    - RL4LLM
-description: "This blog post notes my understanding of the algorithm DPO (Direct Preference Optimization) and the math derivation behind it."
-summary: "This blog post notes my understanding of the algorithm DPO (Direct Preference Optimization) and the math derivation behind it."
+    - Reinforcement Learning
+    - Direct Preference Optimization
+description: "This blog post notes my understanding of Direct Preference Optimization and the math derivation behind it."
+
 comments: true
 images:
 cover:
