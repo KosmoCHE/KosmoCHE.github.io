@@ -2,8 +2,7 @@ baseURL: "https://kosmoche.github.io"
 title: "Kosmo CHE"
 copyright: "© 2024-2025 Kosmo CHE"
 theme: [PaperMod]
-exclude:
-  - archetypes/
+
 languageCode: "en-us" 
 DefaultContentLanguage: "en"
 hasCJKLanguage: true
@@ -52,7 +51,11 @@ params:
   showToc: true
   showbreadcrumbs: true
   ShowAllPagesInArchive: true
-  ShowCodeCopyButtons: true
+  ShowMacDots: true # Mac色块
+  ShowCodeLang: true # 语言显示
+  ShowExpandButton: true # 代码块折叠
+  ShowCodeCopyButtons: true # 代码块复制按钮
+  codeMaxHeight: "300px" # 代码块最大折叠高度
   ShowFullTextinRSS: true 
   ShowWordCount: true
   ShowPageNums: true
@@ -137,7 +140,6 @@ markup:
     linenos: true
     style: monospace
 
-markup:
   goldmark:
     extensions:
       passthrough:
@@ -153,6 +155,7 @@ markup:
           - - $
             - $
         enable: true
+
 frontmatter:
   lastmod:
     - ":git"
