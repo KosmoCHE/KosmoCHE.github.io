@@ -23,9 +23,8 @@ cover:
     hidden: true
 ---
 ## 1. Overview of PPO Implementation
-The pseudo-code for the RLHF with PPO algorithm in **TRL** is as follows:
-```python
-
+The simplified code for the RLHF with PPO algorithm in **TRL** is as follows:
+```python {title="The simplified code of PPO"}
 for batch in dataloader:
     # Sample
     with torch.no_grad():
