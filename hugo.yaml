@@ -109,25 +109,17 @@ menu:
       name: Blogs
       url: /blogs/
       weight: 3 
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 4 
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 5 
     - name: Archive
       url: archives/
-      weight: 6
+      weight: 4
     - identifier: search
       name: Search
       url: /search/
-      weight: 7
+      weight: 
     - identifier: friends
       name: Friends
       url: /friends/
-      weight: 8
+      weight: 6
 
 markup:
   highlight: 
