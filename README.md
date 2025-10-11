@@ -2,7 +2,9 @@
 My Personal Blog
 
 Fork from [jamesnulliu.github.io](https://github.com/jamesnulliu/jamesnulliu.github.io)
-
+## Before You Start
+**❗️❗️❗️Notice**
+1. You need to change the file layouts/partials/comments.html, unless you want to send your comment to my repo's discussion board.
 ## Create Blog Post
 To create a new blog post, you need to have an archetype file located at `archetypes/blog.md`. Here is an example of what the content of that file should look like:
 ```
@@ -11,8 +13,6 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 date: {{ .Date }}
 draft: false
 author: ["Kosmo CHE"]
-keywords: 
-    - xxx
 categories:
     - xxx
 tags:
