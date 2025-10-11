@@ -72,22 +72,26 @@
 }
 
 .pe-code-block-header-left {
+    flex: 1;
     text-align: left;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: .2rem;
 }
 
 .pe-code-block-header-center {
+    flex: 1;
     text-align: center;
+    font-weight: bold;
 }
 
 .pe-code-block-header-right {
+    flex: 1;
     line-height: 1rem;
     text-align: right;
-    width: 2rem;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .post-content .highlight:not(table) {
@@ -209,7 +213,7 @@ table.lntable {
 }
 
 .pe-code-details .fa-ellipsis-h:before {
-    content: "\f141";
+    content: "\f105";
 }
 
 .pe-code-details.open .fa-ellipsis-h:before {
@@ -217,7 +221,7 @@ table.lntable {
 }
 
 .pe-code-details .pe-code-copy-button {
-    display: none;
+    display: inherit;
 }
 
 .pe-code-details.open .pe-code-copy-button {
@@ -226,4 +230,28 @@ table.lntable {
 
 .pe-code-copy-button:hover {
     color: var(--copy-btn-hover-color);
+}
+.mac-dots {
+    align-self: center;
+    position: relative;
+    /* 容器宽度，足以容纳三个点 */
+    width: 52px;
+    /* 容器高度 */
+    height: 12px;
+    /* 与语言名称的间距 */
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.mac-dots::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ff5f56;
+    /* 阴影绘制另外两个点 */
+    box-shadow: 20px 0 0 #ffbd2e, 40px 0 0 #27c93f;
 }

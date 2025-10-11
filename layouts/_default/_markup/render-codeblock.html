@@ -14,9 +14,7 @@
 <div class="pe-code-block-wrap {{ if ne $foldMode "disable" }} pe-code-details {{ end }} {{ if not $foldMode }} open {{ end }} scrollable">
     <div class="pe-code-block-header pe-code-details-summary">
         <div class="pe-code-block-header-left">
-            {{ if ne $foldMode "disable" }}
-            <i class="arrow fas fa-chevron-right fa-fw pe-code-details-icon" aria-hidden="true"></i>
-            {{ end }}
+            <div class="mac-dots"></div>
             {{ if not $hideLang }}
             <span>
             {{- if ne $u_lang "" }}
