@@ -50,12 +50,9 @@ params:
   mermaid: true
   showToc: true
   showbreadcrumbs: true
-  ShowAllPagesInArchive: true
-  ShowMacDots: true # Mac色块
-  ShowCodeLang: true # 语言显示
-  ShowExpandButton: true # 代码块折叠
-  ShowCodeCopyButtons: true # 代码块复制按钮
-  codeMaxHeight: "300px" # 代码块最大折叠高度
+  ShowAllPagesInArchive: true #代码块复制按钮与折叠耦合 必须开启
+  ShowCodeCopyButtons: true # 默认折叠代码块
+  codeBlockFoldMode: true
   ShowFullTextinRSS: true 
   ShowWordCount: true
   ShowPageNums: true
