@@ -31,7 +31,12 @@
 {{- end }}
 
 {{- partial "extend_footer.html" . }}
-
+<style>
+:root {
+  --pe-code-details-collapsed-max: {{ with site.Params.codeBlockCollapsedMax }}{{ . }}{{ else }}10rem{{ end }};
+  --pe-code-details-expanded-max: {{ with site.Params.codeBlockExpandedMax }}{{ . }}{{ else }}50vh{{ end }};
+}
+</style>
 <script>
     let menu = document.getElementById('menu')
     if (menu) {
