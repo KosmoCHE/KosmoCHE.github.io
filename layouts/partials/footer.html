@@ -132,8 +132,17 @@ document.querySelectorAll('pre > code').forEach((codeBlock) => {
 let peCodeDetails = document.getElementsByClassName('pe-code-details')
 for (let element of peCodeDetails) {
     const peCodeSummary = element.getElementsByClassName('pe-code-details-summary')[0];
+    const peCodeContent = element.getElementsByClassName('pe-code-details-content')[0];
+
+    if (peCodeContent.scrollHeight <= peCodeContent.clientHeight) {
+        element.classList.add('locked');
+    }
+
     if (peCodeSummary) {
         peCodeSummary.addEventListener('click', () => {
+            if (element.classList.contains('locked')) {
+                return;
+            }
             if (element.classList.contains('open')) {
                 element.classList.remove('open');
                 element.classList.remove('scrollable');
