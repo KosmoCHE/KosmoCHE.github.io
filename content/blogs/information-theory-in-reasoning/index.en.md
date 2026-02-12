@@ -19,13 +19,13 @@ cover:
     relative: true
     hidden: true
 ---
-## Introduction
+## 1. Introduction
 
 Recently there has been a growing interest in the dynamic features in the reasoning process of Large Language Models (LLMs). While LLMs have demonstrated impressive capabilities in various tasks, their reasoning abilities often lack the depth and adaptability seen in human cognition. This blog post explores the recent advancements in understanding and enhancing the reasoning processes of LLMs, with a particular focus on the application of information theory especially the concept of entropy.
 
-## Related Work
+## 2. Related Work
 
-### Information Content and Entropy
+### 2.1. Information Content and Entropy
 
 For a discrete random variable $X$ with possible outcomes $\{x_1, x_2, \ldots, x_n\}$ and corresponding probabilities $P(X = x_i) = p_i$, the Information Content $I(x_i)$ of an outcome $x_i$ is defined as:
 
