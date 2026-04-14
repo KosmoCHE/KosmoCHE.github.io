@@ -37,6 +37,20 @@ And if you want to be more aggressive, the most brutal method is:
 ```bash
 pkill -9 -u username -f jupyter
 ```
+### 2. Check Processes
+To check all the processes running under your username, you can use:
+```bash
+ps -u username -o pid,ppid,cmd,%mem,%cpu --sort=-rss | head -n 20
+```
+This command will show you the top 20 processes consuming the most memory, along with their PID, parent PID, command, memory usage, and CPU usage.
 
+To check all the processes running on the server, you can use:
+```bash
+ps -a -o pid,ppid,user,cmd,%mem,%cpu --sort=-rss | head -n 20
+```
+This command will show you the top 20 processes consuming the most memory, along with their PID, parent PID, user, command, memory usage, and CPU usage.
+
+> Let me see who's zombie processes occupying the server resources. 💢
+```bash
 
 
