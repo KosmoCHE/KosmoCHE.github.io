@@ -51,6 +51,4 @@ ps -a -o pid,ppid,user,cmd,%mem,%cpu --sort=-rss | head -n 20
 This command will show you the top 20 processes consuming the most memory, along with their PID, parent PID, user, command, memory usage, and CPU usage.
 
 > Let me see who's zombie processes occupying the server resources. 💢
-```bash
-
 
