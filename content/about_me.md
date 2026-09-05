@@ -20,7 +20,8 @@ cover:
     image: "/imgs/people/kosmoche-wide.jpeg"
     caption: ""
     alt: ""
-    relative: false 
+    relative: false
+    inToc: true
 ---
 
 ## 🤖 Brief Introduction

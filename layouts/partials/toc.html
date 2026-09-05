@@ -2,6 +2,12 @@
 {{- $has_headers := ge (len $headers) 1 -}}
 {{- if $has_headers -}}
 <aside id="toc-container" class="toc-container wide">
+    <div class="toc-sticky">
+    {{- if (.Param "cover.inToc") }}
+    <div class="toc-cover">
+        {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" false) }}
+    </div>
+    {{- end }}
     <div class="toc">
         <details {{if (.Param "TocOpen") }} open{{ end }}>
             <summary accesskey="c" title="(Alt + C)">
@@ -90,6 +96,7 @@
                 </ul>
             </div>
         </details>
+    </div>
     </div>
 </aside>
 <script>
