@@ -1,0 +1,59 @@
+:root {
+    --post-age-hint-bg-color: #e5e4e4e9;
+    --post-age-hint-color: #ad4509;
+    --publication-author-color: rgb(72, 72, 72);
+}
+
+.dark {
+    --post-age-hint-bg-color: #6d6c6cac;
+    --post-age-hint-color: #ff7723;
+    --publication-author-color: rgb(180, 180, 181);
+}
+
+.post-age-hint {
+    background-color: var(--post-age-hint-bg-color);
+    /* 深灰色背景 */
+    color: var(--post-age-hint-color);
+    /* 浅灰色文字 */
+    padding: 10px;
+    border-left: 5px solid #ff6666;
+    /* 红色边框，醒目但不刺眼 */
+    margin: 20px 0;
+    border-radius: 5px;
+    /* 圆角边框 */
+}
+
+/* 添加一个过渡效果，鼠标悬停时改变边框颜色 */
+.post-age-hint:hover {
+    border-color: #ff9999;
+}
+
+/* Publication entries: make titles, bibliographic metadata, and authors easy to scan. */
+.publication-title {
+    display: block;
+    margin: 30px 0 6px;
+    color: var(--primary);
+    font-size: 1.08em;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.publication-meta {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--secondary);
+    font-size: 0.82em;
+    line-height: 1.5;
+}
+
+.publication-meta a {
+    color: inherit;
+}
+
+.publication-authors {
+    display: block;
+    margin-bottom: 24px;
+    color: var(--publication-author-color);
+    font-size: 0.9em;
+    line-height: 1.6;
+}

@@ -1,0 +1,156 @@
+baseURL: "https://kosmoche.github.io"
+title: "Kosmo CHE"
+copyright: "© 2024-2026 Kosmo CHE"
+theme: [PaperMod]
+
+languageCode: "en-us" 
+DefaultContentLanguage: "en"
+hasCJKLanguage: true
+pagination.pagerSize: 6 
+pagination.path: "page"
+permalinks:  
+  post: /:slug/
+  page: /:contentbasename/
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+enableGitInfo: true
+pygmentsUseClasses: true
+
+outputs:
+  home:
+    - HTML
+    - JSON
+    - RSS 
+
+languages:
+  en:
+    languageName: 'English'
+    weight: 1
+    
+  zh:
+    languageName: '简体中文'
+    weight: 2
+
+params:
+  comments: true 
+  defaultTheme: auto
+  disableScrollToTop: false
+  disableThemeToggle: false
+  disableLangToggle: true
+  displayFullLangName: true
+  DateFormat: "Jan-02-2006"
+  env: production
+  hideFooter: false
+  hidemeta: false
+  math: true
+  mermaid: true
+  showToc: true
+  showbreadcrumbs: true
+  ShowAllPagesInArchive: true 
+  ShowCodeCopyButtons: true #代码块复制按钮与折叠耦合 必须开启
+  codeBlockFoldMode: true # 默认折叠代码块
+  codeBlockCollapsedMax: "10rem"   # 折叠时最大高度，默认 10rem
+  codeBlockExpandedMax: "50vh"     # 展开时最大高度，默认 50vh
+  ShowFullTextinRSS: true 
+  ShowWordCount: true
+  ShowPageNums: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowUpdateTime: true
+  TocOpen: true
+  visitCount: true
+  profileMode:
+    enabled: true
+    title: "Hi, I am Kosmo CHE"
+    subtitle: "摇撼生命，至死方休"
+    imageUrl: "imgs/people/kosmoche.jpeg"
+    imageTitle: "Kosmo CHE"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: Bio
+        url: /about_me/
+      - name: Publications
+        url: /publications/
+      # - name: CV
+      #   url: /docs/CV_Yanchen_Liu.pdf
+      - name: Blog
+        url: /blog/
+      - name: Search
+        url: /search/
+  socialIcons:
+    - name: github
+      url: https://www.github.com/kosmoche
+    - name: linkedin
+      url: https://www.linkedin.com/in/kosmoche
+    - name: email
+      url: "mailto:kosmoche@gmail.com"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about_me
+      name: About Me
+      url: /about_me/
+      weight: 2
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 3
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 4
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 5
+    - identifier: friends
+      name: Friends
+      url: /friends/
+      weight: 6
+
+markup:
+  highlight: 
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    linenos: true
+    style: monospace
+
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+          - - $
+            - $
+        enable: true
+
+frontmatter:
+  lastmod:
+    - ":git"
+    - "lastmod"
