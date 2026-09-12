@@ -9,7 +9,6 @@ categories:
 -
 tags:
 -
-description: My research interests, education, research experience, and honors.
 comments: false
 showToc: true
 TocOpen: true
@@ -26,7 +25,7 @@ cover:
 
 ## 🤖 Brief Introduction
 
-Hello, I am Kosmo CHE (Xinyu CHE, 车心宇), currently a Master's student in Computer Technology at **Xi'an Jiaotong University**. My research interests center on **Autonomous Agent** research, with two main directions: **Coding Agent** and **Computer-Use Agent**. My coding work spans software engineering and web/game development.
+Hi, I am Kosmo CHE (Xinyu CHE, 车心宇), currently a Master's student in Computer Technology at **Xi'an Jiaotong University**. My research interests center on {{<text class="research-interest">}}**Autonomous Agents**{{</text>}}, with two main directions: {{<text class="research-interest">}}**Coding Agents**{{</text>}} and {{<text class="research-interest">}}**Computer-Use Agents**{{</text>}}. My work on Coding Agents spans software engineering and web/game development.
 
 If you have any inquiries or are interested in collaboration, please feel free to contact me via email at [kosmoche@gmail.com](mailto:kosmoche@gmail.com).
 

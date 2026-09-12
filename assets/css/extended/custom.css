@@ -2,12 +2,15 @@
     --post-age-hint-bg-color: #e5e4e4e9;
     --post-age-hint-color: #ad4509;
     --publication-author-color: rgb(72, 72, 72);
+    --publication-venue-color: #7952b3;
+    --research-interest-color: #cc7260;
 }
 
 .dark {
     --post-age-hint-bg-color: #6d6c6cac;
     --post-age-hint-color: #ff7723;
     --publication-author-color: rgb(180, 180, 181);
+    --publication-venue-color: #b899e8;
 }
 
 .post-age-hint {
@@ -26,6 +29,10 @@
 /* 添加一个过渡效果，鼠标悬停时改变边框颜色 */
 .post-age-hint:hover {
     border-color: #ff9999;
+}
+
+.research-interest {
+    color: var(--research-interest-color);
 }
 
 /* Publication entries: make titles, bibliographic metadata, and authors easy to scan. */
@@ -48,6 +55,32 @@
 
 .publication-meta a {
     color: inherit;
+    white-space: nowrap;
+}
+
+.publication-meta a[href^="https://arxiv.org/"]::before,
+.publication-meta a[href^="https://github.com/"]::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.25em;
+    vertical-align: -0.125em;
+    background-color: currentColor;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+
+.publication-meta a[href^="https://arxiv.org/"]::before {
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 4v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.342a2 2 0 0 0-.602-1.43l-4.44-4.342A2 2 0 0 0 13.56 2H6a2 2 0 0 0-2 2z'/%3E%3Cpath d='M9 13h6M9 17h3M14 2v4a2 2 0 0 0 2 2h4'/%3E%3C/svg%3E");
+}
+
+.publication-meta a[href^="https://github.com/"]::before {
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22'/%3E%3C/svg%3E");
+}
+
+.publication-conference em {
+    color: var(--publication-venue-color);
 }
 
 .publication-authors {
@@ -56,4 +89,10 @@
     color: var(--publication-author-color);
     font-size: 0.9em;
     line-height: 1.6;
+}
+
+.publication-authors strong {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.15em;
 }
