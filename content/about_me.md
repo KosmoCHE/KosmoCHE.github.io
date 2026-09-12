@@ -29,6 +29,12 @@ Hi, I am Kosmo CHE (Xinyu CHE, 车心宇), currently a Master's student in Compu
 
 If you have any inquiries or are interested in collaboration, please feel free to contact me via email at [kosmoche@gmail.com](mailto:kosmoche@gmail.com).
 
+## 🔥 News
+
+{{< news >}}
+- ***2026.08***: My first paper, [**TIDE**](https://arxiv.org/abs/2602.02196), was accepted to **EMNLP 2026 (Main)**! 🎉
+{{< /news >}}
+
 ## 🧑‍🎓 Education History
 
 - **2025.09 - 2028.06**: Master of Computer Technology, Xi'an Jiaotong University.

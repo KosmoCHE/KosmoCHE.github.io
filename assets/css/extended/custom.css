@@ -35,6 +35,26 @@
     color: var(--research-interest-color);
 }
 
+.news-block {
+    max-height: 200px;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    padding: 12px 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--entry);
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) transparent;
+}
+
+.post-content .news-block ul {
+    margin: 0;
+}
+
+.post-content .news-block li:last-child {
+    margin-bottom: 0;
+}
+
 /* Publication entries: make titles, bibliographic metadata, and authors easy to scan. */
 .publication-title {
     display: block;
