@@ -13,6 +13,37 @@
     --publication-venue-color: #b899e8;
 }
 
+body {
+    font-size: 16px;
+}
+
+.post-title,
+.page-header h1,
+.post-content h1 {
+    font-size: 36px;
+}
+
+.post-content h2 {
+    font-size: 28px;
+}
+
+.post-content h3,
+.entry-header h2 {
+    font-size: 22px;
+}
+
+.first-entry .entry-header h1 {
+    font-size: 30px;
+}
+
+.logo a {
+    font-size: 22px;
+}
+
+#menu a {
+    font-size: 15px;
+}
+
 .post-age-hint {
     background-color: var(--post-age-hint-bg-color);
     /* 深灰色背景 */
