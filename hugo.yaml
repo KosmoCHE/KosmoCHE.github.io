@@ -36,6 +36,11 @@ languages:
     weight: 2
 
 params:
+  assets:
+    favicon: "favicon.ico?v=20260912"
+    favicon16x16: "favicon-16x16.png?v=20260912"
+    favicon32x32: "favicon-32x32.png?v=20260912"
+    apple_touch_icon: "apple-touch-icon.png?v=20260912"
   comments: true 
   defaultTheme: auto
   disableScrollToTop: false
