@@ -77,7 +77,7 @@ params:
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: Bio
+      - name: About Me
         url: /about_me/
       - name: Publications
         url: /publications/
