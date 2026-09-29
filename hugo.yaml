@@ -94,6 +94,8 @@ params:
       url: https://www.linkedin.com/in/kosmoche
     - name: email
       url: "mailto:kosmoche@gmail.com"
+    - name: steam
+      url: https://steamcommunity.com/id/kosmoche/
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
