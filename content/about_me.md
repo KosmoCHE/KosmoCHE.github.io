@@ -32,6 +32,7 @@ If you have any inquiries or are interested in collaboration, please feel free t
 ## 🔥 News
 
 {{< news >}}
+- ***2026.09***: Our paper [***Does Learning to Predict the World Help Agents Act? Auditing World-Model Post-Training***](https://arxiv.org/abs/2609.33335) is released on arxiv!!!
 - ***2026.08***: My first paper, [**TIDE**](https://arxiv.org/abs/2602.02196), was accepted to **EMNLP 2026 (Main)**! 🎉
 {{< /news >}}
 

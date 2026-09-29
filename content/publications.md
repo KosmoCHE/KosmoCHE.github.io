@@ -11,6 +11,11 @@ nolisence: true
 
 ## 2026
 
+{{<text class="publication-title">}}Does Learning to Predict the World Help Agents Act? Auditing World-Model Post-Training{{</text>}}
+{{<text class="publication-meta">}}*Preprint.* [Paper](https://arxiv.org/abs/2609.33335) · [Code](https://github.com/KosmoCHE/WM-PostTraining-Audit){{</text>}}
+
+{{<text class="publication-authors">}}**Xinyu Che$^*$**, Hang Yan$^*$, Yanchen Liu$^*$, Haochen Liu, Ruifeng Li, Anran Shi, Heng Wang, Jun Liu$^\dagger$.{{</text>}}
+
 {{<text class="publication-title">}}OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions{{</text>}}
 {{<text class="publication-meta">}}*Preprint.* [Paper](https://arxiv.org/abs/2602.05843) · [Code](https://github.com/xufangzhi/Odyssey-Arena){{</text>}}
 
